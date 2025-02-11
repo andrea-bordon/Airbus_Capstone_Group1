@@ -54,7 +54,7 @@ This project is developed as part of a **Master's Capstone Project** in collabor
 ```
 ├── data/                 # Raw and preprocessed datasets
 ├── notebooks/            # Jupyter notebooks for EDA and modeling
-├── src/                  # Source code for data processing and model training
+├── documents/            # Source documents for understading of case
 ├── models/               # Saved machine learning models
 ├── reports/              # Documentation and analysis reports
 ├── README.md             # Project overview
