@@ -52,9 +52,13 @@ This project is developed as part of a **Master's Capstone Project** in collabor
 
 ## 👥 Participants
 [Matteo Becchis](https://github.com/mbecchis)
+
 [Andrea Bordon](https://github.com/andrea-bordon)
+
 [Gabriel Chapman](https://github.com/Gechz)
+
 [Santiago Ramírez Planter](https://github.com/santiagoplanter)
+
 [Siriyakorn Suepiantham](https://github.com/gssuepian)
 
 ## 📂 Repository Structure
