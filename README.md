@@ -29,7 +29,7 @@ We utilize time-series sensor data collected from **8 different aircraft**, cove
 
 ## 🔍 Methodology
 1. **Exploratory Data Analysis (EDA)**: Identify patterns, anomalies, and critical trends in fuel leak occurrences.
-2. **Feature Engineering**: Select the most relevant features influencing leak detection.
+2. **Feature Engineering**: Transform raw sensor data into useful features for leak detection.
 3. **Predictive Modeling**:
    - Train machine learning models to classify fuel leak events.
    - Compare different algorithms to identify the best-performing model.
@@ -49,6 +49,13 @@ We utilize time-series sensor data collected from **8 different aircraft**, cove
 
 ## 📜 Contributors
 This project is developed as part of a **Master's Capstone Project** in collaboration with Airbus.
+
+## 👥 Participants
+[Matteo Becchis](https://github.com/mbecchis)
+[Andrea Bordon](https://github.com/andrea-bordon)
+[Gabriel Chapman](https://github.com/Gechz)
+[Santiago Ramírez Planter](https://github.com/santiagoplanter)
+[Siriyakorn Suepiantham](https://github.com/gssuepian)
 
 ## 📂 Repository Structure
 ```
