@@ -338,7 +338,7 @@ if page == "DATASET UPLOAD":
             st.markdown(f"""
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
             <h6 style="color: Black; font-family: 'Montserrat', sans-serif; font-weight: bold; text-align: center;">
-            Select Specifc Flight Selected Flight Selected
+            Select Specifc Flight. Selected Flight:
             </h6>
             """, unsafe_allow_html=True)
 
