@@ -390,7 +390,7 @@ if page == "DATASET UPLOAD":
                     with cola:
                         st.write('')
                         st.write('')
-                        st.image('images/leakleft.png')
+                        st.image('streamlit/images/leakleft.png')
                         flight_ids_with_leaks = ', '.join(result_df['FLIGHT_ID'].unique().astype(str))
                         col1, col2, col3 = st.columns([1,10,1])
                         with col1:
@@ -405,7 +405,7 @@ if page == "DATASET UPLOAD":
                         with col3:
                             st.empty()  
                     with colb:
-                        st.image('images/leakright.png')
+                        st.image('streamlit/images/leakright.png')
 
                 else:
                     st.success("No Leaks Detected")
@@ -480,7 +480,7 @@ if page == "DATASET UPLOAD":
                     with cola:
                         st.write('')
                         st.write('')
-                        st.image('images/leakleft.png')
+                        st.image('streamlit/images/leakleft.png')
                         flight_ids_with_leaks = ', '.join(result_df['FLIGHT_ID'].unique().astype(str))
                         col1, col2, col3 = st.columns([1,10,1])
                         with col1:
@@ -497,7 +497,7 @@ if page == "DATASET UPLOAD":
                         with col3:
                             st.empty()  
                     with colb:
-                        st.image('images/leakright.png')
+                        st.image('streamlit/images/leakright.png')
                 else:
                     st.success("No Leaks Detected")
 
@@ -547,7 +547,7 @@ if page == "DATASET UPLOAD":
                     with cola:
                         st.write('')
                         st.write('')
-                        st.image('images/leakleft.png')
+                        st.image('streamlit/images/leakleft.png')
                         flight_ids_with_leaks = ', '.join(result_df['FLIGHT_ID'].unique().astype(str))
                         col1, col2, col3 = st.columns([1,10,1])
                         with col1:
@@ -562,7 +562,7 @@ if page == "DATASET UPLOAD":
                         with col3:
                             st.empty()  
                     with colb:
-                        st.image('images/leakright.png')
+                        st.image('streamlit/images/leakright.png')
 
                 else:
                     st.success("No Leaks Detected")
@@ -609,7 +609,7 @@ if st.session_state.page == "RECOMMENDATIONS":
     st.write('')
     st.write('')
     st.write('')
-    st.image('images/recommendations.png')
+    st.image('streamlit/images/recommendations.png')
     st.write('---')
 
     col1, col2 = st.columns(2)
@@ -618,7 +618,7 @@ if st.session_state.page == "RECOMMENDATIONS":
         #input = st.text_input("Describe the overall maintenance history and/or known issues of these flights or general overall context: ", key="input")
         submit = st.button("Get recommendations")
     with col2:
-        st.image('images/genai.png')
+        st.image('streamlit/images/genai.png')
 
     if submit:
         st.write('---')
