@@ -142,7 +142,7 @@ st.markdown("""
 # LOADING MODEL
 # =============
 with st.spinner("Loading model..."):
-    model = load_model("model_f2.pkl") 
+    model = load_model("model_f2") 
 
 # WEBSITE HEADER
 # ==============
