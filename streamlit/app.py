@@ -24,7 +24,7 @@ st.set_page_config(
     )
 
 api_key = st.secrets["GOOGLE_API_KEY"]  # Access from Streamlit Secrets
-genai.configure(api_key)
+genai.configure(api_key=api_key)
 
 
 # Prompt generation function
