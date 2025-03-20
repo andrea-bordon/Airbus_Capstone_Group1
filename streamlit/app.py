@@ -26,14 +26,9 @@ st.set_page_config(
     layout='wide'
     )
 
-def set_api_key():
-    api_key = st.secrets["GOOGLE_API_KEY"]  # Access from Streamlit Secrets
-    if api_key:
-        genai.configure(api_key=api_key)
-    else:
-        raise ValueError("API key not found in Streamlit secrets.")
+api_key = st.secrets["GOOGLE_API_KEY"]  # Access from Streamlit Secrets
+genai.configure(api_key)
 
-set_api_key()
 
 # Prompt generation function
 def generate_prompt(input):
@@ -234,7 +229,7 @@ if page == "DATASET UPLOAD":
     leaks_detected = []  # Initialize variable
 
     if uploaded_file:
-        df = pd.read_csv(uploaded_file, delimiter =";")  # Load in smaller parts
+        df = pd.read_csv(uploaded_file, delimiter =";")  
         #df = pd.concat(df)  # Combine chunks after processing
 
         missing_columns = [col for col in expected_columns if col not in df.columns]
