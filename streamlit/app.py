@@ -8,6 +8,10 @@ from fpdf import FPDF
 from pycaret.classification import load_model 
 import google.generativeai as genai 
 
+
+import os
+print("Current working directory:", os.getcwd())
+
 # LOADING MODEL
 # =============
 with st.spinner("Loading model..."):
