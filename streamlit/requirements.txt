@@ -9,3 +9,4 @@ pycaret==3.2.0
 joblib==1.2.0
 catboost
 google-generativeai==0.8.3
+fpdf
