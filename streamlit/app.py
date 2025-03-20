@@ -147,7 +147,7 @@ with st.spinner("Loading model..."):
 
 # WEBSITE HEADER
 # ==============
-st.image("images/title.png", use_container_width=True)
+st.image("streamlit/images/title.png", use_container_width=True)
 st.write('---')
 
 # NAVIGATION BUTTONS
