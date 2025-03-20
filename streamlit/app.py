@@ -8,6 +8,11 @@ from fpdf import FPDF
 from pycaret.classification import load_model 
 import google.generativeai as genai 
 
+# LOADING MODEL
+# =============
+with st.spinner("Loading model..."):
+    model = load_model("model_f2") 
+
 # PAGE SET UP
 # ===========
 ## Initialize our streamlit app
@@ -139,10 +144,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 
-# LOADING MODEL
-# =============
-with st.spinner("Loading model..."):
-    model = load_model("model_f2") 
+
 
 # WEBSITE HEADER
 # ==============
