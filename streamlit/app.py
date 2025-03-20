@@ -15,7 +15,7 @@ print("Current working directory:", os.getcwd())
 # LOADING MODEL
 # =============
 with st.spinner("Loading model..."):
-    model = load_model("/model_f2") 
+    model = load_model("model_f2") 
 
 # PAGE SET UP
 # ===========
