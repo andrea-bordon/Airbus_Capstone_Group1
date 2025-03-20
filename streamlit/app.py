@@ -17,8 +17,14 @@ st.set_page_config(
     layout='wide'
     )
 
-api_key_goog = ""
-genai.configure(api_key=api_key_goog)
+def set_api_key():
+    api_key = st.secrets["GOOGLE_API_KEY"]  # Access from Streamlit Secrets
+    if api_key:
+        genai.configure(api_key=api_key)
+    else:
+        raise ValueError("API key not found in Streamlit secrets.")
+
+set_api_key()
 
 # Prompt generation function
 def generate_prompt(input):
