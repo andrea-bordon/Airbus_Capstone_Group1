@@ -11,7 +11,7 @@ import google.generativeai as genai
 # LOADING MODEL
 # =============
 with st.spinner("Loading model..."):
-    model = load_model("/model_f2") 
+    model = load_model("model_f2") 
 
 # PAGE SET UP
 # ===========
