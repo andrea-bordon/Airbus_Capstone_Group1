@@ -12,10 +12,7 @@ import google.generativeai as genai
 import os
 print("Current working directory:", os.getcwd())
 
-# LOADING MODEL
-# =============
-with st.spinner("Loading model..."):
-    model = load_model("model_f2") 
+
 
 # PAGE SET UP
 # ===========
@@ -142,7 +139,10 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-
+# LOADING MODEL
+# =============
+with st.spinner("Loading model..."):
+    model = load_model("model_f2") 
 
 
 # WEBSITE HEADER
