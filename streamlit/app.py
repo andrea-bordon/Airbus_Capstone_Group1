@@ -180,19 +180,19 @@ page = st.session_state.page
 
 if page == "HOME":
     st.write('')
-    st.image('images/a400m.png')
+    st.image('streamlit/images/a400m.png')
     st.write('')
     st.write('')
     st.write('')
-    st.image('images/home1.png')
+    st.image('streamlit/images/home1.png')
     st.write('')
     st.write('')
     st.write('')
-    st.image('images/predfuelleaks.png')
+    st.image('streamlit/images/predfuelleaks.png')
     st.write('')
     st.write('')
     st.write('')
-    st.image('images/causes.png')
+    st.image('streamlit/images/causes.png')
     st.write('---')    
     st.markdown("""
         <p style="font-family: \'Montserrat\', sans-serif; font-size: 20px; font-weight: 400; text-align: center">
@@ -207,9 +207,9 @@ if page == "DATASET UPLOAD":
     st.write('')
     col1, col2 = st.columns(2)
     with col1:
-        st.image('images/upload.png')
+        st.image('streamlit/images/upload.png')
     with col2:
-        st.image('images/upload2.png')
+        st.image('streamlit/images/upload2.png')
         uploaded_file = st.file_uploader("", type=["csv"])
         st.write('')
 
